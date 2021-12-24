@@ -6,17 +6,6 @@ release_platforms:
   ubuntu:
   - focal
 repositories:
-  acado_vendor:
-    release:
-      tags:
-        release: release/foxy/{package}/{version}
-      url: https://gitlab.com/autowarefoundation/autoware.auto/acado_vendor-release.git
-      version: 1.0.0-2
-    source:
-      type: git
-      url: https://gitlab.com/autowarefoundation/autoware.auto/acado_vendor.git
-      version: main
-    status: maintained
   ackermann_msgs:
     doc:
       type: git
